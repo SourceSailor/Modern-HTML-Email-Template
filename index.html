@@ -46,6 +46,49 @@
         vertical-align: top;
         text-align: center;
       }
+      .three-columns {
+        width: 100%;
+        text-align: center;
+        padding: 15px 0;
+      }
+      .three-columns .column {
+        width: 100%;
+        max-width: 175px;
+        display: inline-block;
+        text-align: center;
+      }
+      .three-columns .padding {
+        padding: 0 12px;
+      }
+
+      .two-columns.last {
+        text-align: center;
+      }
+      .two-columns.last .padding {
+        padding: 25px 20px;
+      }
+      .two-columns.last .column {
+        width: 100%;
+        max-width: 300px;
+        display: inline-block;
+        text-align: left;
+        font-size: 15px;
+        color: white;
+      }
+      .two-columns.last .button {
+        background-color: rgb(255, 255, 255);
+        padding: 10px 15px;
+        color: black;
+        text-decoration: none;
+        border-radius: 5px;
+      }
+      .button {
+        background-color: #242424;
+        padding: 10px 15px;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+      }
     </style>
   </head>
   <body>
@@ -103,12 +146,186 @@
         </tr>
 
         <!-- BANNER IMAGE -->
+        <tr>
+          <td>
+            <a href="#"
+              ><img
+                src="img/banner.jpg"
+                alt=""
+                width="600"
+                style="max-width: 100%"
+            /></a>
+          </td>
+        </tr>
 
         <!-- THREE COLUMN SECTION -->
+        <tr>
+          <td>
+            <table width="100%">
+              <tr>
+                <td class="three-columns">
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <!-- EMAIL SECTION -->
+
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <a href="#"
+                                ><img
+                                  src="img/email.png"
+                                  width="130"
+                                  style="max-width: 130px"
+                                  alt=""
+                              /></a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style="padding: 0; margin: 0">
+                              <h4>Email</h4>
+                              <p>
+                                Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <!-- HOME SECTION -->
+
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <a href="#"
+                                ><img
+                                  src="img/home.png"
+                                  width="130"
+                                  style="max-width: 130px"
+                                  alt=""
+                              /></a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <h4>Home</h4>
+                              <p>
+                                Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <!-- KEYBOARD SECTION -->
+
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <a href="#"
+                                ><img
+                                  src="img/settings.png"
+                                  width="130"
+                                  style="max-width: 130px"
+                                  alt=""
+                              /></a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <h4>Settings</h4>
+                              <p>
+                                Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
 
         <!-- TWO COLUMN SECTION -->
-
+        <tr>
+          <td style="background-color: #2c2c2c">
+            <table width="100%">
+              <tr>
+                <td class="two-columns last">
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table>
+                          <tr>
+                            <td>
+                              <img
+                                src="/img/keyboard.jpg"
+                                width="260"
+                                max-width="260px"
+                                alt=""
+                              />
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <table class="column">
+                    <tr>
+                      <td style="padding: 10px 15px 30px 0; margin: 20px 0">
+                        <table>
+                          <tr>
+                            <td>
+                              <h3>Create Custom Designs</h3>
+                              <p style="margin-bottom: 20px">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Magnam ipsam autem non est
+                                dignissimos aspernatur deserunt, perferendis
+                                officia at aperiam? Incidunt sed laborum aperiam
+                                sunt soluta totam debitis est blanditiis!
+                              </p>
+                              <a href="#" class="button">Read More</a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
         <!-- TITLE, TEXT & BUTTON -->
+
+        <tr>
+          <td style="text-align: center; padding: 20px 50px 40px 50px">
+            <table>
+              <h3>HTML Email Template</h3>
+              <p style="margin-bottom: 20px">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
+                itaque tenetur culpa hic quis vel vitae, doloribus eum sed, cum
+                eius ut nam minus doloremque quo, ducimus temporibus. Voluptate,
+                temporibus!
+              </p>
+              <a class="button" href="#">Read More</a>
+            </table>
+          </td>
+        </tr>
 
         <!-- FOOTER SECTION -->
       </table>
